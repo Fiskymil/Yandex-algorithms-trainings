@@ -8,7 +8,7 @@ def initmemory(maxn):
 def newnode(memstruct):
     memory, firstfree = memstruct
     memstruct[1] = memory[firstfree][1]
-    return (firstfree)
+    return firstfree
 
 
 def createandfillnode(memstruct, key):
